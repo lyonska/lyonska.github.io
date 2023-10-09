@@ -1,5 +1,9 @@
-function changeColor(){
+function changeColorBlue(){
     document.querySelector('.box1').style.color = 'blue';
+  }
+
+  function changeColorGreen(){
+    document.querySelector('.box1').style.color = 'Green';
   }
 
   function changeTheme(){

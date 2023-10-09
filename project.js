@@ -1,3 +1,5 @@
-document.getElementById('mouseoverDiv').addEventListener('mouseover', function() {
-    this.style.backgroundColor = 'lightcoral';
-});
+const hi = document.querySelector(".hi");
+
+function changeColor() {
+    hi.style.color = "blue";
+}

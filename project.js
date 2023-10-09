@@ -14,8 +14,8 @@ function changeColorBlue(){
     document.querySelector('.container1').style.background= 'black';
 
   }
-
-      var colors = [, "red", "green",
+  
+  var colors = [, "red", "green",
   "aqua", "blue", "black", "purple", "orange"];
 
 function ColorSwap(){
@@ -23,4 +23,3 @@ function ColorSwap(){
 
   document.querySelector(".box3").style.background = colors[(Math.floor(Math.random() * colors.length))];
 }
-

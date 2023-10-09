@@ -4,7 +4,7 @@
         color: red;
 
        }
-        .box3 {
+       .box3 {
         position: absolute;
             background: #E73C49;
             width: 300px;
@@ -12,7 +12,7 @@
             top: 50%;
             
        
-           }
+    }
        
        body {
             font-family: Times New Roman, sans-serif;

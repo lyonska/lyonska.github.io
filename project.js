@@ -6,7 +6,7 @@ function changeColor(){
     document.querySelector('.header').style.color = 'orange';
     document.querySelector('.header').style.background = 'black';
     document.querySelector('.navbar').style.background= 'orange';
-    document.querySelector('footer').style.color= 'orange';
-    document.querySelector('footer').style.background= 'black';
+    document.querySelector('.container1').style.color= 'orange';
+    document.querySelector('.container1').style.background= 'black';
 
   }

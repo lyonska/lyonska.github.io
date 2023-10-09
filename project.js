@@ -23,3 +23,17 @@ function ColorSwap(){
 
   document.querySelector(".box3").style.background = colors[(Math.floor(Math.random() * colors.length))];
 }
+
+const indic = document.getElementById(".event4");
+
+window.addEventListener("scroll", () =>{
+      console.log("scrolling")
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+     const scrolled= window.scrollY;
+     console.log(scrollable)
+     if(Math.ceil(scrolled)===scrollable){
+      alert("You have reached the bottom of the page");
+     }
+    
+
+});

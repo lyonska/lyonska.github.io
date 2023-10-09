@@ -4,6 +4,15 @@
         color: red;
 
        }
+        .box3 {
+        position: absolute;
+            background: #E73C49;
+            width: 300px;
+            height: 250px;
+            top: 50%;
+            
+       
+           }
        
        body {
             font-family: Times New Roman, sans-serif;

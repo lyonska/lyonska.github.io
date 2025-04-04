@@ -4,62 +4,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keaton Lyons - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keaton Lyons - Professional Profile</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f6;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    h1 {
+      color: #4A90E2;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .linkedin-link {
+      color: #0073b1;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .linkedin-link:hover {
+      text-decoration: underline;
+    }
+
+    .profile-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 4px solid #4A90E2;
+    }
+
+    .social-links {
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #4A90E2;
+      font-size: 24px;
+      margin: 0 15px;
+    }
+
+    .social-links a:hover {
+      color: #003366;
+    }
+
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Keaton Lyons</div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="hero">
-        <h1>Welcome to My Portfolio</h1>
-       <img src="picofme.jpg" alt="Keaton Lyons" style="width: 400px; height: 400px; border-radius: 50%;">
 
-        <p>Software Engineer | IT Specialist | Problem Solver</p>
-    </section>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm Keaton Lyons, a Computer Science senior at the University of Indianapolis with a concentration in Software Engineering and a Mathematics minor. Passionate about coding, IT, and problem-solving.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <div class="project">
-                <h3>Project Name</h3>
-                <p>Brief description of the project. Technologies used.</p>
-            </div>
-            <!-- Add more projects here -->
-        </div>
-    </section>
-    
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Details about work experience, internships, and relevant job roles.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Phone: 317-727-9605</p>
-        <p>Email: keatonlyonsa@gmail.com</p>
-        <p><a href="https://www.linkedin.com/in/keaton-lyons-6139012b2/" target="_blank" rel="noopener noreferrer">Visit My LinkedIn!</a></p>
+  <div class="container">
+    <h1>Keaton Lyons</h1>
+    <img src="picofme.jpg" alt="Keaton Lyons" class="profile-image">
+    <p>
+      <a href="https://www.linkedin.com/in/keaton-lyons-6139012b2/" class="linkedin-link" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>: Keaton Lyons
+    </p>
+    <div class="social-links">
+      <a href="https://github.com/your-github" target="_blank">GitHub</a>
+      <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>
+    </div>
+  </div>
 
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Keaton Lyons. All rights reserved.</p>
-    </footer>
 </body>
 </html>

@@ -25,11 +25,11 @@
     .container {
       background-color: white;
       padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
       width: 80%;
-      max-width: 800px;
+      max-width: 900px;
+      text-align: center;
     }
 
     h1 {
@@ -42,12 +42,23 @@
       color: #333;
       font-size: 28px;
       margin-top: 40px;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+      text-align: left;
     }
 
-    p {
-      font-size: 18px;
-      line-height: 1.6;
+    .profile-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #4A90E2;
+      margin-bottom: 20px;
     }
 
     .linkedin-link {
@@ -60,25 +71,27 @@
       text-decoration: underline;
     }
 
-    .profile-image {
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-      margin: 20px 0;
-      border: 4px solid #4A90E2;
-    }
-
-    .projects, .experience, .contact {
-      margin-top: 40px;
+    .section {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
     }
 
     .projects ul, .experience ul {
       list-style: none;
       padding-left: 0;
+      margin-top: 10px;
     }
 
     .projects li, .experience li {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      font-size: 18px;
+      color: #4A90E2;
     }
 
     .social-links a {
@@ -91,50 +104,49 @@
     .social-links a:hover {
       color: #003366;
     }
-
-    .contact p {
-      font-size: 18px;
-      color: #4A90E2;
-    }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h1>Keaton Lyons</h1>
-    <img src="picofme.jpg" alt="Keaton Lyons" class="profile-image">
-    <p>
-      <a href="https://www.linkedin.com/in/keaton-lyons-6139012b2/" class="linkedin-link" target="_blank" rel="noopener noreferrer">
-        LinkedIn
-      </a>: Keaton Lyons
-    </p>
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <img src="picofme.jpg" alt="Keaton Lyons" class="profile-image">
+      <h1>Keaton Lyons</h1>
+      <p>
+        <a href="https://www.linkedin.com/in/keaton-lyons-6139012b2/" class="linkedin-link" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>: Keaton Lyons
+      </p>
+    </div>
 
     <!-- Projects Section -->
-    <div class="projects">
+    <div class="section projects">
       <h2>Projects</h2>
       <ul>
-        <li><strong>Project 1</strong>: Description of project 1.</li>
-        <li><strong>Project 2</strong>: Description of project 2.</li>
-        <li><strong>Project 3</strong>: Description of project 3.</li>
+        <li><strong>Project 1</strong>: Description of project 1 with link.</li>
+        <li><strong>Project 2</strong>: Description of project 2 with link.</li>
+        <li><strong>Project 3</strong>: Description of project 3 with link.</li>
       </ul>
     </div>
 
     <!-- Work Experience Section -->
-    <div class="experience">
+    <div class="section experience">
       <h2>Work Experience</h2>
       <ul>
-        <li><strong>Job Title at Company</strong> - Brief description of the role and key responsibilities.</li>
-        <li><strong>Previous Job Title at Previous Company</strong> - Key achievements and responsibilities.</li>
+        <li><strong>Software Engineer at Company A</strong>: Developed and maintained software solutions, collaborated with cross-functional teams, etc.</li>
+        <li><strong>IT Specialist at Company B</strong>: Managed networks, maintained security protocols, etc.</li>
       </ul>
     </div>
 
     <!-- Contact Section -->
-    <div class="contact">
-      <h2>Contact Me</h2>
+    <div class="section contact">
+      <h2>Contact</h2>
       <p>Email: <a href="mailto:keaton@example.com">keaton@example.com</a></p>
       <p>Phone: (123) 456-7890</p>
     </div>
 
+    <!-- Social Media Links -->
     <div class="social-links">
       <a href="https://github.com/your-github" target="_blank">GitHub</a>
       <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>

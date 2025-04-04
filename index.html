@@ -6,51 +6,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keaton Lyons - Professional Profile</title>
+  <title>Keaton Lyons - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     body {
-  body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto; /* Adjust height */
-  min-height: 100vh;
-  padding: 40px;
-}
-
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f6;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
-
     .container {
-      background-color: white;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-      width: 80%;
-      max-width: 900px;
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
       text-align: center;
     }
-
-    h1 {
-      color: #4A90E2;
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-
-    h2 {
-      color: #333;
-      font-size: 28px;
-      margin-top: 40px;
-      margin-bottom: 15px;
-      text-align: left;
-    }
-
-    .profile-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 40px;
-    }
-
     .profile-image {
       width: 150px;
       height: 150px;
@@ -58,99 +35,74 @@
       border: 4px solid #4A90E2;
       margin-bottom: 20px;
     }
-
+    h1 {
+      color: #4A90E2;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 30px;
+      text-align: left;
+      border-bottom: 2px solid #4A90E2;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: left;
+    }
+    li {
+      margin-bottom: 10px;
+    }
     .linkedin-link {
       color: #0073b1;
       font-weight: bold;
       text-decoration: none;
     }
-
     .linkedin-link:hover {
       text-decoration: underline;
     }
-
-    .section {
-      background-color: #f9f9f9;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      margin-bottom: 30px;
-    }
-
-    .projects ul, .experience ul {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 10px;
-    }
-
-    .projects li, .experience li {
-      margin-bottom: 10px;
-    }
-
-    .contact p {
-      font-size: 18px;
+    .contact a {
       color: #4A90E2;
-    }
-
-    .social-links a {
       text-decoration: none;
-      color: #4A90E2;
-      font-size: 24px;
-      margin: 0 15px;
     }
-
-    .social-links a:hover {
-      color: #003366;
+    .contact a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
   <div class="container">
-    <!-- Profile Section -->
-    <div class="profile-section">
-      <img src="picofme.jpg" alt="Keaton Lyons" class="profile-image">
-      <h1>Keaton Lyons</h1>
-      <p>
-        <a href="https://www.linkedin.com/in/keaton-lyons-6139012b2/" class="linkedin-link" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>: Keaton Lyons
-      </p>
-    </div>
-
-    <!-- Projects Section -->
-    <div class="section projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Project 1</strong>: Description of project 1 with link.</li>
-        <li><strong>Project 2</strong>: Description of project 2 with link.</li>
-        <li><strong>Project 3</strong>: Description of project 3 with link.</li>
-      </ul>
-    </div>
-
-    <!-- Work Experience Section -->
-    <div class="section experience">
-      <h2>Work Experience</h2>
-      <ul>
-        <li><strong>Software Engineer at Company A</strong>: Developed and maintained software solutions, collaborated with cross-functional teams, etc.</li>
-        <li><strong>IT Specialist at Company B</strong>: Managed networks, maintained security protocols, etc.</li>
-      </ul>
-    </div>
-
-    <!-- Contact Section -->
-    <div class="section contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:keaton@example.com">keaton@example.com</a></p>
-      <p>Phone: (123) 456-7890</p>
-    </div>
-
-    <!-- Social Media Links -->
-    <div class="social-links">
-      <a href="https://github.com/your-github" target="_blank">GitHub</a>
-      <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>
-    </div>
+    <img src="picofme.jpg" alt="Keaton Lyons" class="profile-image">
+    <h1>Keaton Lyons</h1>
+    <p>
+      <a href="https://www.linkedin.com/in/keaton-lyons-6139012b2/" class="linkedin-link" target="_blank" rel="noopener noreferrer">
+        LinkedIn Profile
+      </a>
+    </p>
+    
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project 1</strong>: Description of project 1 with link.</li>
+      <li><strong>Project 2</strong>: Description of project 2 with link.</li>
+      <li><strong>Project 3</strong>: Description of project 3 with link.</li>
+    </ul>
+    
+    <h2>Work Experience</h2>
+    <ul>
+      <li><strong>Software Engineer at Company A</strong>: Developed and maintained software solutions.</li>
+      <li><strong>IT Specialist at Company B</strong>: Managed networks and security protocols.</li>
+    </ul>
+    
+    <h2>Education</h2>
+    <ul>
+      <li><strong>University Name</strong>: Degree in Computer Science, Year</li>
+    </ul>
+    
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:keaton@example.com">keaton@example.com</a></p>
+    <p>Phone: (123) 456-7890</p>
   </div>
-
 </body>
 </html>
-
